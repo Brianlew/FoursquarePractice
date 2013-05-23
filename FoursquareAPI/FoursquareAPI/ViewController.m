@@ -42,10 +42,7 @@
     [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
         
         NSDictionary *responseDictionary = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
-        imageArray = [responseDictionary objectForKey:@"data"];
         
-        [activityIndicator stopAnimating];
-        [self displayNextPhoto];
     }];
 }
 
