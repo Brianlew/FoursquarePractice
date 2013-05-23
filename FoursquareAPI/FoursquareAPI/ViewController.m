@@ -19,7 +19,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    NSLog(@"andrew was here");
 }
 
 - (void)didReceiveMemoryWarning
@@ -30,9 +29,6 @@
 
 -(void)getPopularRestaurants
 {
-    
-    //NSURL *url = [NSURL URLWithString:@"https://api.instagram.com/v1/media/search?lat=42.276490&lng=-83.741188&access_token=390125219.4ef70fd.a6a29cb887584e849bd01cac9fd62465"];
-    
     NSURL *url = [NSURL URLWithString:@"https://api.instagram.com/v1/tags/hailtothevictors/media/recent?access_token=390125219.4ef70fd.a6a29cb887584e849bd01cac9fd62465"];
     
     
