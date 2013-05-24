@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34F09107174ED360002E74A9 /* 1194984754884631372button-blue_benji_park_01.svg.hi.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F09106174ED360002E74A9 /* 1194984754884631372button-blue_benji_park_01.svg.hi.png */; };
+		34F0910A174ED5EA002E74A9 /* FoursquareObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F09109174ED5EA002E74A9 /* FoursquareObject.m */; };
 		D34E0604174EA8AA008340BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34E0603174EA8AA008340BA /* UIKit.framework */; };
 		D34E0606174EA8AA008340BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34E0605174EA8AA008340BA /* Foundation.framework */; };
 		D34E0608174EA8AA008340BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34E0607174EA8AA008340BA /* CoreGraphics.framework */; };
@@ -21,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34F09106174ED360002E74A9 /* 1194984754884631372button-blue_benji_park_01.svg.hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1194984754884631372button-blue_benji_park_01.svg.hi.png"; sourceTree = "<group>"; };
+		34F09108174ED5EA002E74A9 /* FoursquareObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoursquareObject.h; sourceTree = "<group>"; };
+		34F09109174ED5EA002E74A9 /* FoursquareObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoursquareObject.m; sourceTree = "<group>"; };
 		D34E0600174EA8AA008340BA /* FoursquareAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoursquareAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D34E0603174EA8AA008340BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D34E0605174EA8AA008340BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,6 +93,8 @@
 				D34E061B174EA8AB008340BA /* MainStoryboard.storyboard */,
 				D34E061E174EA8AB008340BA /* ViewController.h */,
 				D34E061F174EA8AB008340BA /* ViewController.m */,
+				34F09108174ED5EA002E74A9 /* FoursquareObject.h */,
+				34F09109174ED5EA002E74A9 /* FoursquareObject.m */,
 				D34E060A174EA8AA008340BA /* Supporting Files */,
 			);
 			path = FoursquareAPI;
@@ -96,6 +103,7 @@
 		D34E060A174EA8AA008340BA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				34F09106174ED360002E74A9 /* 1194984754884631372button-blue_benji_park_01.svg.hi.png */,
 				D34E060B174EA8AA008340BA /* FoursquareAPI-Info.plist */,
 				D34E060C174EA8AA008340BA /* InfoPlist.strings */,
 				D34E060F174EA8AA008340BA /* main.m */,
@@ -163,6 +171,7 @@
 				D34E0618174EA8AB008340BA /* Default@2x.png in Resources */,
 				D34E061A174EA8AB008340BA /* Default-568h@2x.png in Resources */,
 				D34E061D174EA8AB008340BA /* MainStoryboard.storyboard in Resources */,
+				34F09107174ED360002E74A9 /* 1194984754884631372button-blue_benji_park_01.svg.hi.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +185,7 @@
 				D34E0610174EA8AA008340BA /* main.m in Sources */,
 				D34E0614174EA8AA008340BA /* AppDelegate.m in Sources */,
 				D34E0620174EA8AB008340BA /* ViewController.m in Sources */,
+				34F0910A174ED5EA002E74A9 /* FoursquareObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +308,7 @@
 				D34E0625174EA8AB008340BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

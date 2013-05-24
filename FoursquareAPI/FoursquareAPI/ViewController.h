@@ -10,4 +10,15 @@
 
 @interface ViewController : UIViewController
 
+
+//@property (weak, nonatomic) IBOutlet UITableView *tableView;
+
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+
+
+- (IBAction)actionButton:(id)sender;
+
+
 @end
